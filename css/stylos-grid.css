@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.secciongrid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+
+.elementoGrid{
+    align-items: center;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.elementoGrid > h2{
+    color: white;
+    font-family: sans-serif;
+}
+
+.elemento5{
+    col-span: 2;
+    background-color: red;
+}
