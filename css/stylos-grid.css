@@ -35,6 +35,7 @@ body{
 }
 
 .elemento5{
-    col-span: 2;
+    grid-column: span 2;
     background-color: red;
+    width: 400px;
 }
